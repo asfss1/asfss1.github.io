@@ -51,6 +51,7 @@ nav a:link{ /*não visityado*/
   }
 
   nav  a:visited{ /* visitado*/
+    background: rgb(221, 15, 49);
     color: #458b00;
     
   }
