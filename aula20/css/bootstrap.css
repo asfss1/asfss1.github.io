@@ -1,5 +1,5 @@
 /*!
- * Bootstrap v4.3.0 (https://getbootstrap.com/)
+ * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
@@ -212,7 +212,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #1928b1;
+  color: #6c757d;
   text-align: left;
   caption-side: bottom;
 }
@@ -228,7 +228,6 @@ label {
 
 button {
   border-radius: 0;
-  
 }
 
 button:focus {
@@ -5660,7 +5659,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 button.close {
   padding: 0;
   background-color: transparent;
-  border: 1;
+  border: 0;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -6515,7 +6514,7 @@ a.close.disabled {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: blue !important;
+  background-color: #0062cc !important;
 }
 
 .bg-secondary {

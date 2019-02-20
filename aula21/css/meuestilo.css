@@ -1,0 +1,60 @@
+.container{
+
+height: 800px;
+width: 300px;
+background: LightGray;
+
+
+}
+
+.table{
+
+
+}
+
+.conteudo{
+	bakground: blue;
+	margin: 5px;
+	
+
+}
+.linha{
+
+	
+	margin: 5px;
+}
+.coluna{
+
+
+
+     
+margin: 5px;
+
+}
+
+
+.{
+
+height: 500px;
+width: 500px;
+display: grid;
+border:  2px   solid green;
+display: relative;
+}
+
+
+.img-circle{
+
+height: 400px;
+width: 400px;
+display: grid;
+border:  2px   solid green;
+display: grid;
+margin: 20px  20px  0px  300px;
+
+}
+
+
+
+	
+	

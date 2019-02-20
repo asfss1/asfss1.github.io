@@ -1,17 +1,83 @@
 .conteudo{
-
-	height: 300px;
+	bakground: blue;
+	margin: 5px;
 	
 
 }
 .linha{
 
 	
-	
+	margin: 5px;
 }
 .coluna{
 
-	
-	
 
 
+     
+margin: 5px;
+
+}
+
+
+.img1{
+
+height: 500px;
+width: 500px;
+display: grid;
+border:  2px   solid green;
+display: relative;
+}
+
+
+.img2{
+
+height: 50px;
+width: 50px;
+display: grid;
+border:  2px   solid green;
+display: grid;
+
+}
+
+.img3{
+
+height: 200px;
+width: 200px;
+display: grid;
+border:  2px   solid green;
+display: relative;
+}
+
+.img4{
+
+height: 200px;
+width: 200px;
+display: grid;
+border:  2px   solid green;
+display: relative;
+}
+
+.img5{
+
+height: 150px;
+width: 150px;
+display: grid;
+border:  2px   solid green;
+display: relative;
+}
+
+.img6{
+
+height: 150px;
+width: 530px;
+display: grid;
+border:  2px   solid green;
+display: relative;
+padding: 10px;
+}
+
+
+
+
+	
+	
