@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+   <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'
+    integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ'
+     crossorigin='anonymous'>
+    <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
+    <title>AULA 23</title>
+
+    <!-- Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/meuestilo.css" rel="stylesheet">
+
+    <!-- HTML5 shim e Respond.js para suporte no IE8 de elementos HTML5 e media queries -->
+    <!-- ALERTA: Respond.js não funciona se você visualizar uma página file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+
+
+
+      <div >
+
+          <div > <center>                      
+              <button class="btn btn-primary" style='font-size:16px'> <i class='far fa-clock '></i> PEDIDOS RECENTES </button>
+              <button class="btn btn-primary" style='font-size:16px'> <i class='far fa-building '></i> ENVIAR CLIENTES </button>
+              <button class="btn btn-primary" style='font-size:16px'> <i class=' fas fa-fax'></i> RECEBER PEDIDOS </button>
+              <button class="btn btn-primary" style='font-size:16px'><i class='fas fa-file-alt'></i> TODOS OS PEDIDOS </button>
+              <button class="btn btn-primary" style='font-size:16px'><i class='far fa-file'></i> NOVO PEDIDO </button>
+              <button class="btn btn-primary" style='font-size:16px'><i class='fas fa-home'></i> PÁGINA INICIAL </button>
+            </center>   
+          </div>
+        </br>
+      </br>
+      
+      <div class="container"  class="alert alert-success  alert-dismissible fade show">
+          
+          
+          <span>  <a href="#" class="close" data-dismiss="alert" aria-label="Fechar">&times</a> </span>
+          
+          <a href="#" class="close" data-dismiss="alert" aria-label="Fechar">  <h1>-</h1></a>
+          
+      <h3>Pesquisa de Poduto</h3>
+      <hr>
+              </br>
+       <div> <strong>Descrição</strong></div>
+       <input type="text"  class="form-default">
+
+</br>
+</br>
+ <div > <left>                      
+              
+              <button class="btn btn-primary" style='font-size:16px'> <i class='fas fa-search '></i> PESQUISAR</button>
+              <button class="btn btn-primary" style='font-size:16px'><i class='fas fa-home'></i> RECARREGAR </button>           
+              <button class="btn btn-primary" style='font-size:16px'><i class='far fa-file'></i> NOVO </button>
+              
+ </left>   
+          </div>
+          
+
+        </br>
+
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputCity">REGISTRO POR PÁGINA</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-4">
+           
+          </div>
+          <div class="form-group col-md-2">
+            <label for="inputCEP">BUSCA</label>
+            <input type="text" class="form-control" id="BUSCA">
+          </div>
+        </div>
+
+         
+        </br>
+      </br>
+
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Descrição</th>
+            <th scope="col">Situação</th>
+            <th scope="col">Ações</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Pizza</td>
+            <td><button type="button" class="btn btn-success">Ativo</button></td>
+            <td><button class="btn" data-toggle="tooltip" data-plaecment="right"
+              title="Ver Detalhes"> <span class="glyphicon glyphicon-tasks"></span> </button>
+
+                <button class="btn"data-toggle="tooltip" data-plaecment="right"
+                title="Editar"> <span class="glyphicon glyphicon-edit"></span></button>
+
+               <span>  <button class="modal-default" data-dismiss="modal" data-toggle="tooltip" data-plaecment="right"
+                title="delete"><span class="glyphicon glyphicon-trash"></span> </button> </span> 
+
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Refrigerante</td>
+            <td><button type="button" class="btn btn-success">Ativo</button></td>
+            <td><button class="btn" data-toggle="tooltip" data-plaecment="right"
+              title="Ver Detalhes"> <span class="glyphicon glyphicon-tasks"></span> </button>
+
+                <button class="btn"data-toggle="tooltip" data-plaecment="right"
+                title="Editar"> <span class="glyphicon glyphicon-edit"></span></button>
+
+               <span>  <button class="modal-default" data-dismiss="modal" data-toggle="tooltip" data-plaecment="right"
+                title="delete"><span class="glyphicon glyphicon-trash"></span> </button> </span> 
+ 
+          </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Cajuina</td>
+            <td><button type="button" class="btn  btn-warning ">Inativo</button></td>>
+            <td><button class="btn" data-toggle="tooltip" data-plaecment="right"
+              title="Ver Detalhes"> <span class="glyphicon glyphicon-tasks"></span> </button>
+
+                <button class="btn"data-toggle="tooltip" data-plaecment="right"
+                title="Editar"> <span class="glyphicon glyphicon-edit"></span></button>
+
+               <span>  <button class="modal-default" data-dismiss="modal" data-toggle="tooltip" data-plaecment="right"
+                title="delete"><span class="glyphicon glyphicon-trash"></span> </button> </span> 
+
+          </td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>Borda</td>
+            <td><button type="button" class="btn btn-success">Ativo</button></td>
+
+            <td><button class="btn" data-toggle="tooltip" data-plaecment="right"
+              title="Ver Detalhes"> <span class="glyphicon glyphicon-tasks"></span> </button>
+
+                <button class="btn"data-toggle="tooltip" data-plaecment="right"
+                title="Editar"> <span class="glyphicon glyphicon-edit"></span></button>
+
+               <span>  <button class="modal-default" data-dismiss="modal" data-toggle="tooltip" data-plaecment="right"
+                title="delete"><span class="glyphicon glyphicon-trash"></span> </button> </span> 
+
+                
+              
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+
+
+
+
+       
+
+    
+
+
+
+
+    <script type="text/javascript">
+          $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+          })
+    </script>
+    <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
